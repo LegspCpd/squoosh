@@ -76,8 +76,8 @@ const toOutput: Output = {
       },
     ],
     description:
-      'Compress and compare images with different codecs, right in your browser.',
-    lang: 'en',
+      '直接在浏览器中使用不同的编码格式压缩和对比图片。',
+    lang: 'zh-CN',
     categories: ['photo', 'productivity', 'utilities'],
     screenshots,
     share_target: {

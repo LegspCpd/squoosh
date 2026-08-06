@@ -38,7 +38,7 @@ export class Options extends Component<Props, {}> {
     return (
       <form class={style.optionsSection} onSubmit={preventDefault}>
         <label class={style.optionToggle}>
-          Interlace
+          交错
           <Checkbox
             name="interlace"
             checked={options.interlace}
@@ -54,7 +54,7 @@ export class Options extends Component<Props, {}> {
             value={options.level}
             onInput={this.onChange}
           >
-            Effort:
+            工作量：
           </Range>
         </div>
       </form>

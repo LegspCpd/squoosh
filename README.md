@@ -1,38 +1,38 @@
 # [Squoosh]!
 
-[Squoosh] is an image compression web app that reduces image sizes through numerous formats.
+[Squoosh] 是一个图片压缩网页应用，可以通过多种格式减小图片体积。
 
-# Privacy
+# 隐私
 
-Squoosh does not send your image to a server. All image compression processes locally.
+Squoosh 不会将你的图片发送到服务器。所有图片压缩均在本地完成。
 
-However, Squoosh utilizes Google Analytics to collect the following:
+不过，Squoosh 会使用 Google Analytics 收集以下信息：
 
-- [Basic visitor data](https://support.google.com/analytics/answer/6004245?ref_topic=2919631).
-- The before and after image size value.
-- If Squoosh PWA, the type of Squoosh installation.
-- If Squoosh PWA, the installation time and date.
+- [基础的访客数据](https://support.google.com/analytics/answer/6004245?ref_topic=2919631)。
+- 压缩前后图片的大小数值。
+- 如果是 Squoosh PWA，则包括 Squoosh 的安装类型。
+- 如果是 Squoosh PWA，则包括安装时间和日期。
 
-# Developing
+# 开发
 
-To develop for Squoosh:
+为 Squoosh 进行开发：
 
-1. Clone the repository
-1. To install node packages, run:
+1. 克隆仓库
+1. 安装 node 包，运行：
    ```sh
    npm install
    ```
-1. Then build the app by running:
+1. 然后构建应用，运行：
    ```sh
    npm run build
    ```
-1. After building, start the development server by running:
+1. 构建完成后，启动开发服务器，运行：
    ```sh
    npm run dev
    ```
 
-# Contributing
+# 参与贡献
 
-Squoosh is an open-source project that appreciates all community involvement. To contribute to the project, follow the [contribute guide](/CONTRIBUTING.md).
+Squoosh 是一个开源项目，欢迎社区的所有参与。要为项目做贡献，请遵循[贡献指南](/CONTRIBUTING.md)。
 
 [squoosh]: https://squoosh.app
